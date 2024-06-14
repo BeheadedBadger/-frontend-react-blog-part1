@@ -12,5 +12,38 @@
 }
 
 .page-container img {
-    width: 500px;
+    width: 300px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(44,47,57,1) 40%, rgba(0,0,0,1) 100%);
+    position: fixed;
+    top: 0;
+    padding: 50px;
+}
+
+.header-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 60%
+}
+
+.header-links a:link, a:visited {
+    padding: 16px;
+    border: rgba(44,47,57,0) none 0;
+    background-color: rgb(44,47,57,0);
+    color: white;
+    text-decoration: none;
+}
+
+.header-links a:hover, a:active {
+    color: #75E699;
+    text-decoration: underline;
 }

@@ -1,0 +1,43 @@
+.blog-post {
+    width: 80%;
+    padding: 50px 75px 50px 75px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0 1px 4px;
+}
+
+.blog-post p {
+    color: rgba(44,47,57,1);
+    padding: 20px;
+}
+
+.blog-post h2 {
+    color: #75E699;
+    margin-left: 20px;
+}
+
+hr {
+    color: #75E699;
+    border-top: 1px solid #75E699;
+}
+
+.blog-post .blog-title {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+}
+.blog-post .blog-title p, .blog-post .blog-title h2 {
+    padding-bottom: -35px;
+    margin-bottom: -35px;
+}
+
+.blog-post .green {
+    color: #75E699;
+}
+
+
+a:link, a:visited {
+    padding: 16px;
+    border: rgba(44, 47, 57, 0) none 0;
+    background-color: rgb(44, 47, 57, 0);
+    color: rgba(44,47,57,1);
+    text-align: end;
+}

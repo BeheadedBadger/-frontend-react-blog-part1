@@ -1,0 +1,37 @@
+ul .post-link {
+    list-style-type: none;
+    color: rgba(44,47,57,1);
+}
+
+.post-link a:link, .post-link a:visited {
+    border: rgba(44,47,57,0) none 0;
+    background-color: rgb(44,47,57,0);
+    color: rgba(44,47,57,1);
+    text-decoration: none;
+    font-size: 30px;
+    padding-right: 20px;
+}
+
+.post-link a:hover, .post-link a:active {
+    color: #75E699;
+    text-decoration: underline;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.post-link {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0 1px 4px;
+}
+
+.post-link .stats {
+    padding-left: 20px;
+    color: #75E699;
+}

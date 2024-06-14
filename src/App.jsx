@@ -17,13 +17,15 @@ function App() {
                     <Link to="blogpost">Nieuwe post maken</Link>
                 </div>
             </div>
+            <div className="content">
             <Routes>
                 <Route path="/" element={<Home/>}/>
-                <Route path="/blogpost/:id" element={<BlogPost/>}/>
+                <Route path="/blogpost/:index" element={<BlogPost/>}/>
                 <Route path="/blogpost" element={<BlogPost/>}/>
                 <Route path="/blogposts" element={<BlogOverview/>}/>
                 <Route path="*" element={<NotFound/>}/>
             </Routes>
+            </div>
             {/* Eventuele footer ... */}
         </div>
     )

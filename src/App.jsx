@@ -5,6 +5,7 @@ import Home from "../pages/home/Home.jsx";
 import NotFound from "../pages/error/NotFound.jsx";
 import BlogPost from "../pages/blogPost/BlogPost.jsx";
 import BlogOverview from "../pages/blogOverview/BlogOverview.jsx";
+import NewPost from "../pages/newPost/NewPost.jsx";
 
 function App() {
     return (
@@ -14,14 +15,15 @@ function App() {
                 <div className="header-links">
                     <Link to="/home">Home</Link>
                     <Link to="/blogposts">Alle posts</Link>
-                    <Link to="blogpost">Nieuwe post maken</Link>
+                    <Link to="/newpost">Nieuwe post maken</Link>
                 </div>
             </div>
             <div className="content">
             <Routes>
                 <Route path="/" element={<Home/>}/>
+                <Route path="/home" element={<Home/>}></Route>
                 <Route path="/blogpost/:index" element={<BlogPost/>}/>
-                <Route path="/blogpost" element={<BlogPost/>}/>
+                <Route path="/newpost" element={<NewPost/>}/>
                 <Route path="/blogposts" element={<BlogOverview/>}/>
                 <Route path="*" element={<NotFound/>}/>
             </Routes>

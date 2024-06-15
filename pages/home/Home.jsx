@@ -1,5 +1,11 @@
+import "./Home.css";
+
 function Home() {
-    return (<article><h1>Home page!</h1></article>);
+    return (
+        <div className="home-page">
+            <img src="/src/assets/logo-black.png" alt="logo"/>
+        </div>
+    )
 }
 
 export default Home;

@@ -1,0 +1,55 @@
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    color: #2C2F39;
+    border: 3px solid #2C2F39;
+    padding: 10px 20px 50px 20px;
+}
+
+.new-post-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.new-post-details .input-square {
+    padding: 10px;
+    margin: 10px;
+}
+
+.new-post-details .input-square label {
+    padding: 10px;
+}
+
+.new-post-details .input-square input {
+    padding: 10px;
+}
+
+.new-post {
+    text-align: center;
+    color: #2C2F39;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+button[type=submit] {
+    padding:10px 30px;
+    background:white;
+    color: #2C2F39;
+    align-self: end;
+    margin-right: 10%;
+    margin-top: -2px;
+    font-size: 15px;
+}
+
+button[type=submit]:hover {
+    background: #2C2F39;
+    color: white;
+}
